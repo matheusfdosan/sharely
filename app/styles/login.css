@@ -1,0 +1,155 @@
+/* main {
+  display: flex;
+  width: 100%;
+}
+
+#image {
+  width: 50%;
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1665686377065-08ba896d16fd?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#image img {
+  padding: 40px;
+}
+
+form {
+  margin: auto;
+}
+
+#secret-logo {
+  display: none;
+}
+
+form h2 {
+  color: var(--primary-color);
+  font-size: 5rem;
+  margin-bottom: 3rem;
+}
+
+form h3 {
+  font-size: 3rem;
+  font-weight: normal;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+form p {
+  color: var(--text-color-clearer);
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-bottom: 4rem;
+}
+
+#inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+#inputs label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  user-select: none;
+}
+
+#inputs label input {
+  height: 4rem;
+  padding-left: 1rem;
+  border: 2px solid var(--text-color-clearer);
+  border-radius: 1rem;
+  font-size: 1.6rem;
+}
+
+#login-options {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0;
+}
+
+#remember-me {
+  display: flex;
+  gap: 0.5rem;
+  user-select: none;
+  cursor: pointer;
+}
+
+#remember-me input {
+  appearance: none;
+  width: 2rem;
+  height: 2rem;
+  border: 2px solid var(--text-color-clearer);
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+#remember-me input:checked::after {
+  content: "✔";
+  position: relative;
+  top: -0.7rem;
+  left: 0.1rem;
+  font-size: 2rem;
+}
+
+#login-options a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+button {
+  width: 100%;
+  height: 4.5rem;
+  font-size: 2rem;
+  color: #fff;
+  font-weight: normal;
+  background-color: var(--primary-color);
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 3rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  #image {
+    transition: width 200ms ease;
+    width: 40%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    transition: font-size 200ms ease;
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 650px) {
+
+  #secret-logo {
+    display: block;
+    padding-bottom: 2rem;
+    width: 20rem;
+    text-align: center;
+    margin: auto;
+  }
+
+  #image {
+    transition: display 200ms ease;
+    display: none;
+  }
+
+  form {
+    padding-top: 5rem;
+  }
+} */

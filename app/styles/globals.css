@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+:root {
+  --inter: "Inter", sans-serif;
+  --primary-color: #80b6ff;
+  --secondary-color: #abcfff47;
+  --text-color: #535353;
+  --text-color-clearer: #b3b3b3;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  height: 100vh;
+  font-family: var(--inter);
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-size: 1.6rem;
+}
